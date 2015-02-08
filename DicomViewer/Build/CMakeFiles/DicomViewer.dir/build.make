@@ -72,9 +72,32 @@ CMakeFiles/DicomViewer.dir/src/main.cxx.o.provides: CMakeFiles/DicomViewer.dir/s
 
 CMakeFiles/DicomViewer.dir/src/main.cxx.o.provides.build: CMakeFiles/DicomViewer.dir/src/main.cxx.o
 
+CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o: CMakeFiles/DicomViewer.dir/flags.make
+CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o: ../src/mainwindow.cxx
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o -c /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.cxx
+
+CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.cxx > CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.i
+
+CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.cxx -o CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.s
+
+CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o.requires:
+.PHONY : CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o.requires
+
+CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o.provides: CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o.requires
+	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o.provides.build
+.PHONY : CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o.provides
+
+CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o.provides.build: CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o
+
 CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o: CMakeFiles/DicomViewer.dir/flags.make
 CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o: DicomViewer_automoc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o -c /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/DicomViewer_automoc.cpp
 
@@ -98,12 +121,14 @@ CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o.provides.build: CMakeFiles/
 # Object files for target DicomViewer
 DicomViewer_OBJECTS = \
 "CMakeFiles/DicomViewer.dir/src/main.cxx.o" \
+"CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o" \
 "CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o"
 
 # External object files for target DicomViewer
 DicomViewer_EXTERNAL_OBJECTS =
 
 DicomViewer.app/Contents/MacOS/DicomViewer: CMakeFiles/DicomViewer.dir/src/main.cxx.o
+DicomViewer.app/Contents/MacOS/DicomViewer: CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o
 DicomViewer.app/Contents/MacOS/DicomViewer: CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o
 DicomViewer.app/Contents/MacOS/DicomViewer: CMakeFiles/DicomViewer.dir/build.make
 DicomViewer.app/Contents/MacOS/DicomViewer: /Users/Raymond/Documents/VTK/lib/libvtkDomainsChemistry-6.1.1.dylib
@@ -233,6 +258,7 @@ CMakeFiles/DicomViewer.dir/build: DicomViewer.app/Contents/MacOS/DicomViewer
 .PHONY : CMakeFiles/DicomViewer.dir/build
 
 CMakeFiles/DicomViewer.dir/requires: CMakeFiles/DicomViewer.dir/src/main.cxx.o.requires
+CMakeFiles/DicomViewer.dir/requires: CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o.requires
 CMakeFiles/DicomViewer.dir/requires: CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o.requires
 .PHONY : CMakeFiles/DicomViewer.dir/requires
 

@@ -3,8 +3,88 @@
 
 CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o
  /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/DicomViewer_automoc.cpp
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/moc_mainwindow.cpp
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.h
+ /Users/Raymond/Documents/VTK/Common/Core/vtkAtomicInt.h
+ /Users/Raymond/Documents/VTK/Common/Core/vtkCommonCoreModule.h
+ /Users/Raymond/Documents/VTK/Common/Core/vtkConfigure.h
+ /Users/Raymond/Documents/VTK/Common/Core/vtkToolkits.h
+ /Users/Raymond/Documents/VTK/Common/Core/vtkVersionMacros.h
+ /Users/Raymond/Documents/VTK/GUISupport/Qt/vtkGUISupportQtModule.h
+ /Users/Raymond/Documents/VTK/Interaction/Style/vtkInteractionStyleModule.h
+ /Users/Raymond/Documents/VTK/Rendering/Core/vtkRenderingCoreModule.h
+ /Users/Raymond/Documents/VTK/Rendering/OpenGL/vtkRenderingOpenGLConfigure.h
+ /Users/Raymond/Documents/VTK/Rendering/OpenGL/vtkRenderingOpenGLModule.h
+ /Users/Raymond/Documents/VTK/Rendering/OpenGL/vtkTDxConfigure.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkABI.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkAutoInit.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkCommand.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkDebugLeaksManager.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkIOStream.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkIOStreamFwd.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkIndent.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkOStrStreamWrapper.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkOStreamWrapper.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkObject.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkObjectBase.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkSetGet.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkSystemIncludes.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkTimeStamp.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkType.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkWeakPointerBase.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkWin32Header.h
+ /Users/Raymond/Downloads/VTK-6.1.0/GUISupport/Qt/QVTKInteractor.h
+ /Users/Raymond/Downloads/VTK-6.1.0/GUISupport/Qt/QVTKWidget.h
+ /Users/Raymond/Downloads/VTK-6.1.0/GUISupport/Qt/QVTKWin32Header.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkRenderWindowInteractor.h
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QWidget
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
 CMakeFiles/DicomViewer.dir/src/main.cxx.o
  /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/main.cxx
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.h
+ /Users/Raymond/Documents/VTK/Common/Core/vtkAtomicInt.h
+ /Users/Raymond/Documents/VTK/Common/Core/vtkCommonCoreModule.h
+ /Users/Raymond/Documents/VTK/Common/Core/vtkConfigure.h
+ /Users/Raymond/Documents/VTK/Common/Core/vtkToolkits.h
+ /Users/Raymond/Documents/VTK/Common/Core/vtkVersionMacros.h
+ /Users/Raymond/Documents/VTK/GUISupport/Qt/vtkGUISupportQtModule.h
+ /Users/Raymond/Documents/VTK/Interaction/Style/vtkInteractionStyleModule.h
+ /Users/Raymond/Documents/VTK/Rendering/Core/vtkRenderingCoreModule.h
+ /Users/Raymond/Documents/VTK/Rendering/OpenGL/vtkRenderingOpenGLConfigure.h
+ /Users/Raymond/Documents/VTK/Rendering/OpenGL/vtkRenderingOpenGLModule.h
+ /Users/Raymond/Documents/VTK/Rendering/OpenGL/vtkTDxConfigure.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkABI.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkAutoInit.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkCommand.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkDebugLeaksManager.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkIOStream.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkIOStreamFwd.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkIndent.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkOStrStreamWrapper.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkOStreamWrapper.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkObject.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkObjectBase.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkSetGet.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkSystemIncludes.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkTimeStamp.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkType.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkWeakPointerBase.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkWin32Header.h
+ /Users/Raymond/Downloads/VTK-6.1.0/GUISupport/Qt/QVTKInteractor.h
+ /Users/Raymond/Downloads/VTK-6.1.0/GUISupport/Qt/QVTKWidget.h
+ /Users/Raymond/Downloads/VTK-6.1.0/GUISupport/Qt/QVTKWin32Header.h
+ /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkRenderWindowInteractor.h
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QApplication
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QWidget
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
+CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.cxx
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.h
  /Users/Raymond/Documents/VTK/Common/Core/vtkAtomicInt.h
  /Users/Raymond/Documents/VTK/Common/Core/vtkCommonCoreModule.h
  /Users/Raymond/Documents/VTK/Common/Core/vtkConfigure.h
@@ -79,7 +159,6 @@ CMakeFiles/DicomViewer.dir/src/main.cxx.o
  /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkVariant.h
  /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkVariantCast.h
  /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkVariantInlineOperators.h
- /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkVersion.h
  /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkWeakPointerBase.h
  /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkWin32Header.h
  /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkWindow.h
@@ -97,8 +176,6 @@ CMakeFiles/DicomViewer.dir/src/main.cxx.o
  /Users/Raymond/Downloads/VTK-6.1.0/GUISupport/Qt/QVTKInteractor.h
  /Users/Raymond/Downloads/VTK-6.1.0/GUISupport/Qt/QVTKWidget.h
  /Users/Raymond/Downloads/VTK-6.1.0/GUISupport/Qt/QVTKWin32Header.h
- /Users/Raymond/Downloads/VTK-6.1.0/IO/Image/vtkImageReader2.h
- /Users/Raymond/Downloads/VTK-6.1.0/IO/Image/vtkJPEGReader.h
  /Users/Raymond/Downloads/VTK-6.1.0/Interaction/Image/vtkImageViewer.h
  /Users/Raymond/Downloads/VTK-6.1.0/Interaction/Style/vtkInteractorStyleImage.h
  /Users/Raymond/Downloads/VTK-6.1.0/Interaction/Style/vtkInteractorStyleTrackballCamera.h
@@ -108,7 +185,6 @@ CMakeFiles/DicomViewer.dir/src/main.cxx.o
  /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkActorCollection.h
  /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkImageActor.h
  /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkImageMapper.h
- /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkImageMapper3D.h
  /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkImageSlice.h
  /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkInteractorObserver.h
  /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkInteractorStyle.h
@@ -125,9 +201,7 @@ CMakeFiles/DicomViewer.dir/src/main.cxx.o
  /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkViewport.h
  /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkVolume.h
  /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkVolumeCollection.h
- /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QApplication
- /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QLabel
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
  /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QWidget
- /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
- /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
  /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qwidget.h

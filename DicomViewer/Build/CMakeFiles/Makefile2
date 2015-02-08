@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomVie
 CMakeFiles/DicomViewer.dir/all: CMakeFiles/DicomViewer_automoc.dir/all
 	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/depend
 	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles  1 2 3
 	@echo "Built target DicomViewer"
 .PHONY : CMakeFiles/DicomViewer.dir/all
 
@@ -69,7 +69,7 @@ all: CMakeFiles/DicomViewer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DicomViewer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DicomViewer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles 0
 .PHONY : CMakeFiles/DicomViewer.dir/rule
@@ -94,7 +94,7 @@ clean: CMakeFiles/DicomViewer.dir/clean
 CMakeFiles/DicomViewer_automoc.dir/all:
 	$(MAKE) -f CMakeFiles/DicomViewer_automoc.dir/build.make CMakeFiles/DicomViewer_automoc.dir/depend
 	$(MAKE) -f CMakeFiles/DicomViewer_automoc.dir/build.make CMakeFiles/DicomViewer_automoc.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles  4
 	@echo "Built target DicomViewer_automoc"
 .PHONY : CMakeFiles/DicomViewer_automoc.dir/all
 

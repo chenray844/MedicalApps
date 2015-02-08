@@ -7,17 +7,27 @@
 #IncludeRegexTransform: 
 
 /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/DicomViewer_automoc.cpp
+moc_mainwindow.cpp
+/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/moc_mainwindow.cpp
+
+/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/moc_mainwindow.cpp
+../src/mainwindow.h
+/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
 
 /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/main.cxx
 QApplication
 -
-QLabel
--
-vtkVersion.h
--
-vtkImageViewer.h
--
-vtkImageMapper3D.h
+mainwindow.h
+/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.h
+
+/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.cxx
+mainwindow.h
+/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.h
+QVTKWidget.h
 -
 vtkSmartPointer.h
 -
@@ -37,7 +47,9 @@ vtkInteractorStyleImage.h
 -
 vtkRenderer.h
 -
-vtkJPEGReader.h
+
+/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.h
+QMainWindow
 -
 QVTKWidget.h
 -
@@ -566,14 +578,6 @@ typeinfo
 climits
 -
 
-/Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkVersion.h
-vtkCommonCoreModule.h
-/Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkCommonCoreModule.h
-vtkObject.h
-/Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkObject.h
-vtkVersionMacros.h
-/Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkVersionMacros.h
-
 /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkWeakPointerBase.h
 vtkCommonCoreModule.h
 /Users/Raymond/Downloads/VTK-6.1.0/Common/Core/vtkCommonCoreModule.h
@@ -708,18 +712,6 @@ vtkSystemIncludes.h
 vtkABI.h
 /Users/Raymond/Downloads/VTK-6.1.0/GUISupport/Qt/vtkABI.h
 
-/Users/Raymond/Downloads/VTK-6.1.0/IO/Image/vtkImageReader2.h
-vtkIOImageModule.h
-/Users/Raymond/Downloads/VTK-6.1.0/IO/Image/vtkIOImageModule.h
-vtkImageAlgorithm.h
-/Users/Raymond/Downloads/VTK-6.1.0/IO/Image/vtkImageAlgorithm.h
-
-/Users/Raymond/Downloads/VTK-6.1.0/IO/Image/vtkJPEGReader.h
-vtkIOImageModule.h
-/Users/Raymond/Downloads/VTK-6.1.0/IO/Image/vtkIOImageModule.h
-vtkImageReader2.h
-/Users/Raymond/Downloads/VTK-6.1.0/IO/Image/vtkImageReader2.h
-
 /Users/Raymond/Downloads/VTK-6.1.0/Interaction/Image/vtkImageViewer.h
 vtkInteractionImageModule.h
 /Users/Raymond/Downloads/VTK-6.1.0/Interaction/Image/vtkInteractionImageModule.h
@@ -779,12 +771,6 @@ vtkRenderingCoreModule.h
 /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkRenderingCoreModule.h
 vtkMapper2D.h
 /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkMapper2D.h
-
-/Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkImageMapper3D.h
-vtkRenderingCoreModule.h
-/Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkRenderingCoreModule.h
-vtkAbstractMapper3D.h
-/Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkAbstractMapper3D.h
 
 /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkImageSlice.h
 vtkRenderingCoreModule.h
@@ -898,9 +884,9 @@ vtkVolume.h
 qapplication.h
 /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
 
-/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QLabel
-qlabel.h
-/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
+/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
+qmainwindow.h
+/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
 
 /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QWidget
 qwidget.h
@@ -924,8 +910,10 @@ QtGui/qpalette.h
 QtGui/qguiapplication.h
 -
 
-/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qlabel.h
-QtWidgets/qframe.h
+/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
+QtWidgets/qwidget.h
+-
+QtWidgets/qtabwidget.h
 -
 
 /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qwidget.h

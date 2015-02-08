@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/DicomViewer_automoc.cpp" "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o"
   "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/main.cxx" "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles/DicomViewer.dir/src/main.cxx.o"
+  "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.cxx" "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

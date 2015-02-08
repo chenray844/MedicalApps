@@ -14,9 +14,11 @@ greaterThan(QT_MAJOR_VERSION,4): QT += widgets
 TARGET = DicomViewer
 TEMPLATE = app
 
-SOURCES += src/main.cxx
+SOURCES += src/main.cxx \
+    src/mainwindow.cxx
 
-HEADERS +=
+HEADERS += \
+    src/mainwindow.h
 
 RESOURCES +=
 

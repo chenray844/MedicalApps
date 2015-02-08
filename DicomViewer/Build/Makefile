@@ -176,6 +176,30 @@ src/main.cxx.s:
 	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/src/main.cxx.s
 .PHONY : src/main.cxx.s
 
+src/mainwindow.o: src/mainwindow.cxx.o
+.PHONY : src/mainwindow.o
+
+# target to build an object file
+src/mainwindow.cxx.o:
+	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o
+.PHONY : src/mainwindow.cxx.o
+
+src/mainwindow.i: src/mainwindow.cxx.i
+.PHONY : src/mainwindow.i
+
+# target to preprocess a source file
+src/mainwindow.cxx.i:
+	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.i
+.PHONY : src/mainwindow.cxx.i
+
+src/mainwindow.s: src/mainwindow.cxx.s
+.PHONY : src/mainwindow.s
+
+# target to generate assembly for a file
+src/mainwindow.cxx.s:
+	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.s
+.PHONY : src/mainwindow.cxx.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mainwindow.o"
+	@echo "... src/mainwindow.i"
+	@echo "... src/mainwindow.s"
 .PHONY : help
 
 

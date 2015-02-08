@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "DicomViewer_automoc.cpp"
   "CMakeFiles/DicomViewer.dir/src/main.cxx.o"
+  "CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o"
   "CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o"
   "DicomViewer.pdb"
   "DicomViewer.app/Contents/MacOS/DicomViewer"
