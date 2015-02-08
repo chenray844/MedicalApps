@@ -15,7 +15,7 @@ CXX           = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefau
 DEFINES       = -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB
 CFLAGS        = -pipe -O2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -mmacosx-version-min=10.7 -Wall -W -fPIE $(DEFINES)
 CXXFLAGS      = -pipe -O2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -mmacosx-version-min=10.7 -Wall -W -fPIE $(DEFINES)
-INCPATH       = -I/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/macx-clang -I. -I/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Versions/5/Headers -I/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtGui.framework/Versions/5/Headers -I/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtCore.framework/Versions/5/Headers -IMacOSX/moc -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/AGL.framework/Headers -F/Users/Raymond/Qt5.4.0/5.4/clang_64/lib
+INCPATH       = -I/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/macx-clang -I. -I../../../../VTK/Install/include/vtk-6.1 -I/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Versions/5/Headers -I/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtGui.framework/Versions/5/Headers -I/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtCore.framework/Versions/5/Headers -IMacOSX/moc -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/AGL.framework/Headers -F/Users/Raymond/Qt5.4.0/5.4/clang_64/lib
 QMAKE         = /Users/Raymond/Qt5.4.0/5.4/clang_64/bin/qmake
 DEL_FILE      = rm -f
 CHK_DIR_EXISTS= test -d
@@ -36,7 +36,7 @@ DISTNAME      = DicomViewer1.0.0
 DISTDIR = /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/MacOSX/obj/DicomViewer1.0.0
 LINK          = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
 LFLAGS        = -headerpad_max_install_names -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -mmacosx-version-min=10.7 -Wl,-rpath,/Users/Raymond/Qt5.4.0/5.4/clang_64/lib
-LIBS          = $(SUBLIBS) -F/Users/Raymond/Qt5.4.0/5.4/clang_64/lib -framework QtWidgets -framework QtGui -framework QtCore -framework DiskArbitration -framework IOKit -framework OpenGL -framework AGL 
+LIBS          = $(SUBLIBS) -F/Users/Raymond/Qt5.4.0/5.4/clang_64/lib -L/Users/Raymond/Documents/VTK/Install/lib -lvtkChartsCore-6.1 -lvtkCommonColor-6.1 -lvtkCommonComputationalGeometry-6.1 -lvtkCommonCore-6.1 -lvtkCommonDataModel-6.1 -lvtkCommonExecutionModel-6.1 -lvtkCommonMath-6.1 -lvtkCommonMisc-6.1 -lvtkCommonSystem-6.1 -lvtkCommonTransforms-6.1 -lvtkDICOMParser-6.1 -lvtkDomainsChemistry-6.1 -lvtkFiltersAMR-6.1 -lvtkFiltersCore-6.1 -lvtkFiltersExtraction-6.1 -lvtkFiltersFlowPaths-6.1 -lvtkFiltersGeneral-6.1 -lvtkFiltersGeneric-6.1 -lvtkFiltersGeometry-6.1 -lvtkFiltersHybrid-6.1 -lvtkFiltersHyperTree-6.1 -lvtkFiltersImaging-6.1 -lvtkFiltersModeling-6.1 -lvtkFiltersParallel-6.1 -lvtkFiltersParallelImaging-6.1 -lvtkFiltersProgrammable-6.1 -lvtkFiltersSMP-6.1 -lvtkFiltersSelection-6.1 -lvtkFiltersSources-6.1 -lvtkFiltersStatistics-6.1 -lvtkFiltersTexture-6.1 -lvtkFiltersVerdict-6.1 -lvtkGUISupportQt-6.1 -lvtkGUISupportQtOpenGL-6.1 -lvtkGUISupportQtSQL-6.1 -lvtkGUISupportQtWebkit-6.1 -lvtkGeovisCore-6.1 -lvtkIOAMR-6.1 -lvtkIOCore-6.1 -lvtkIOEnSight-6.1 -lvtkIOExodus-6.1 -lvtkIOExport-6.1 -lvtkIOGeometry-6.1 -lvtkIOImage-6.1 -lvtkIOImport-6.1 -lvtkIOInfovis-6.1 -lvtkIOLSDyna-6.1 -lvtkIOLegacy-6.1 -lvtkIOMINC-6.1 -lvtkIOMovie-6.1 -lvtkIONetCDF-6.1 -lvtkIOPLY-6.1 -lvtkIOParallel-6.1 -lvtkIOSQL-6.1 -lvtkIOVideo-6.1 -lvtkIOXML-6.1 -lvtkIOXMLParser-6.1 -lvtkImagingColor-6.1 -lvtkImagingCore-6.1 -lvtkImagingFourier-6.1 -lvtkImagingGeneral-6.1 -lvtkImagingHybrid-6.1 -lvtkImagingMath-6.1 -lvtkImagingMorphological-6.1 -lvtkImagingSources-6.1 -lvtkImagingStatistics-6.1 -lvtkImagingStencil-6.1 -lvtkInfovisCore-6.1 -lvtkInfovisLayout-6.1 -lvtkInteractionImage-6.1 -lvtkInteractionStyle-6.1 -lvtkInteractionWidgets-6.1 -lvtkNetCDF-6.1 -lvtkNetCDF_cxx-6.1 -lvtkParallelCore-6.1 -lvtkRenderingAnnotation-6.1 -lvtkRenderingContext2D-6.1 -lvtkRenderingCore-6.1 -lvtkRenderingFreeType-6.1 -lvtkRenderingFreeTypeOpenGL-6.1 -lvtkRenderingGL2PS-6.1 -lvtkRenderingImage-6.1 -lvtkRenderingLIC-6.1 -lvtkRenderingLOD-6.1 -lvtkRenderingLabel-6.1 -lvtkRenderingOpenGL-6.1 -lvtkRenderingQt-6.1 -lvtkRenderingVolume-6.1 -lvtkRenderingVolumeAMR-6.1 -lvtkRenderingVolumeOpenGL-6.1 -lvtkViewsContext2D-6.1 -lvtkViewsCore-6.1 -lvtkViewsGeovis-6.1 -lvtkViewsInfovis-6.1 -lvtkViewsQt-6.1 -lvtkalglib-6.1 -lvtkexoIIc-6.1 -lvtkexpat-6.1 -lvtkfreetype-6.1 -lvtkftgl-6.1 -lvtkgl2ps-6.1 -lvtkhdf5-6.1 -lvtkhdf5_hl-6.1 -lvtkjpeg-6.1 -lvtkjsoncpp-6.1 -lvtklibxml2-6.1 -lvtkmetaio-6.1 -lvtkoggtheora-6.1 -lvtkpng-6.1 -lvtkproj4-6.1 -lvtksqlite-6.1 -lvtksys-6.1 -lvtktiff-6.1 -lvtkverdict-6.1 -lvtkzlib-6.1 -framework QtWidgets -framework QtGui -framework QtCore -framework DiskArbitration -framework IOKit -framework OpenGL -framework AGL 
 AR            = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar cq
 RANLIB        = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib -s
 SED           = sed
@@ -50,7 +50,8 @@ OBJECTS_DIR   = MacOSX/obj/
 
 SOURCES       = src/main.cxx 
 OBJECTS       = MacOSX/obj/main.o
-DIST          = /Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/spec_pre.prf \
+DIST          = CMakeLists.txt \
+		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/spec_pre.prf \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/qdevice.pri \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/device_config.prf \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/common/shell-unix.conf \
@@ -157,6 +158,7 @@ DIST          = /Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/spec_pre.pr
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/qt_config.prf \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/macx-clang/qmake.conf \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/exclusive_builds.prf \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/default_pre.prf \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/mac/default_pre.prf \
@@ -326,6 +328,7 @@ Makefile: DicomViewer.pro /Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/macx-clang
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/qt_config.prf \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/macx-clang/qmake.conf \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/exclusive_builds.prf \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/default_pre.prf \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/mac/default_pre.prf \
@@ -458,6 +461,7 @@ Makefile: DicomViewer.pro /Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/macx-clang
 /Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/qt_config.prf:
 /Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/macx-clang/qmake.conf:
 /Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 /Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/exclusive_builds.prf:
 /Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/default_pre.prf:
 /Users/Raymond/Qt5.4.0/5.4/clang_64/mkspecs/features/mac/default_pre.prf:
@@ -562,7 +566,129 @@ compiler_clean:
 MacOSX/obj/main.o: src/main.cxx /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QApplication \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qapplication.h \
 		/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QLabel \
-		/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qlabel.h
+		/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qlabel.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkAutoInit.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkDebugLeaksManager.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkCommonCoreModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkSystemIncludes.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkWin32Header.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkConfigure.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkVersionMacros.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkABI.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkIOStreamFwd.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkIOStream.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkType.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkOStreamWrapper.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkOStrStreamWrapper.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkTimeStamp.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkVersion.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkObject.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkObjectBase.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkAtomicInt.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkIndent.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkSetGet.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkWeakPointerBase.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkImageViewer.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkInteractionImageModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkInteractionStyleModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkRenderingCoreModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkInteractionWidgetsModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkFiltersHybridModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkImagingHybridModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkIOImageModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkRenderingAnnotationModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkRenderingFreeTypeModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkRenderingVolumeModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkImageMapper.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkMapper2D.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkAbstractMapper.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkAlgorithm.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkCommonExecutionModelModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkRenderWindow.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkWindow.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkImageMapper3D.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkAbstractMapper3D.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkSmartPointer.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkSmartPointerBase.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkSphereSource.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkFiltersSourcesModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkPolyDataAlgorithm.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkPolyData.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkCommonDataModelModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkPointSet.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkDataSet.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkDataObject.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkPoints.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkDataArray.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkAbstractArray.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkVariant.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkStdString.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkUnicodeString.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkVariantInlineOperators.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkCellTypes.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkIntArray.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkDataArrayTemplate.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkTypedDataArray.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkTypeTemplate.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkTypeTraits.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkTypedDataArrayIterator.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkTypedDataArray.txx \
+		../../../../VTK/Install/include/vtk-6.1/vtkDataArrayTemplateImplicit.txx \
+		../../../../VTK/Install/include/vtk-6.1/vtkDataArrayTemplate.txx \
+		../../../../VTK/Install/include/vtk-6.1/vtkArrayIteratorTemplate.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkArrayIterator.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkArrayIteratorTemplateImplicit.txx \
+		../../../../VTK/Install/include/vtk-6.1/vtkArrayIteratorTemplate.txx \
+		../../../../VTK/Install/include/vtk-6.1/vtkObjectFactory.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkIdList.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkInformation.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkInformationDoubleVectorKey.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkInformationKey.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkCommonInformationKeyManager.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkInformationInformationVectorKey.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkInformationVector.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkMappedDataArray.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkMappedDataArray.txx \
+		../../../../VTK/Install/include/vtk-6.1/vtkSortDataArray.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkVariantCast.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkUnsignedCharArray.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkCellType.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkCellLinks.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkPolyDataMapper.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkMapper.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkScalarsToColors.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkTexture.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkImageAlgorithm.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkActor.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkProp3D.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkProp.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkImageActor.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkImageSlice.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkRenderWindowInteractor.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkInteractorStyleImage.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkInteractorStyleTrackballCamera.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkInteractorStyle.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkInteractorObserver.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkRenderer.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkViewport.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkVolumeCollection.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkPropCollection.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkCollection.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkVolume.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkActorCollection.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkJPEGReader.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkImageReader2.h \
+		../../../../VTK/Install/include/vtk-6.1/QVTKWidget.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkGUISupportQtModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkRenderingOpenGLModule.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkRenderingOpenGLConfigure.h \
+		../../../../VTK/Install/include/vtk-6.1/QVTKInteractor.h \
+		../../../../VTK/Install/include/vtk-6.1/QVTKWin32Header.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkCommand.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkTDxConfigure.h \
+		/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Versions/5/Headers/QWidget \
+		/Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Versions/5/Headers/qwidget.h \
+		../../../../VTK/Install/include/vtk-6.1/vtkToolkits.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o MacOSX/obj/main.o src/main.cxx
 
 ####### Install

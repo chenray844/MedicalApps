@@ -1,0 +1,2 @@
+/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles/DicomViewer_automoc.dir
+/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles/DicomViewer.dir
