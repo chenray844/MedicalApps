@@ -152,6 +152,54 @@ DicomViewer_automoc.cpp.s:
 	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.s
 .PHONY : DicomViewer_automoc.cpp.s
 
+src/dockwidget.o: src/dockwidget.cxx.o
+.PHONY : src/dockwidget.o
+
+# target to build an object file
+src/dockwidget.cxx.o:
+	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/src/dockwidget.cxx.o
+.PHONY : src/dockwidget.cxx.o
+
+src/dockwidget.i: src/dockwidget.cxx.i
+.PHONY : src/dockwidget.i
+
+# target to preprocess a source file
+src/dockwidget.cxx.i:
+	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/src/dockwidget.cxx.i
+.PHONY : src/dockwidget.cxx.i
+
+src/dockwidget.s: src/dockwidget.cxx.s
+.PHONY : src/dockwidget.s
+
+# target to generate assembly for a file
+src/dockwidget.cxx.s:
+	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/src/dockwidget.cxx.s
+.PHONY : src/dockwidget.cxx.s
+
+src/documentdicom.o: src/documentdicom.cxx.o
+.PHONY : src/documentdicom.o
+
+# target to build an object file
+src/documentdicom.cxx.o:
+	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/src/documentdicom.cxx.o
+.PHONY : src/documentdicom.cxx.o
+
+src/documentdicom.i: src/documentdicom.cxx.i
+.PHONY : src/documentdicom.i
+
+# target to preprocess a source file
+src/documentdicom.cxx.i:
+	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/src/documentdicom.cxx.i
+.PHONY : src/documentdicom.cxx.i
+
+src/documentdicom.s: src/documentdicom.cxx.s
+.PHONY : src/documentdicom.s
+
+# target to generate assembly for a file
+src/documentdicom.cxx.s:
+	$(MAKE) -f CMakeFiles/DicomViewer.dir/build.make CMakeFiles/DicomViewer.dir/src/documentdicom.cxx.s
+.PHONY : src/documentdicom.cxx.s
+
 src/main.o: src/main.cxx.o
 .PHONY : src/main.o
 
@@ -213,6 +261,12 @@ help:
 	@echo "... DicomViewer_automoc.o"
 	@echo "... DicomViewer_automoc.i"
 	@echo "... DicomViewer_automoc.s"
+	@echo "... src/dockwidget.o"
+	@echo "... src/dockwidget.i"
+	@echo "... src/dockwidget.s"
+	@echo "... src/documentdicom.o"
+	@echo "... src/documentdicom.i"
+	@echo "... src/documentdicom.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

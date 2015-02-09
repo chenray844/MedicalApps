@@ -3,7 +3,10 @@
 
 CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o
  /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/DicomViewer_automoc.cpp
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/moc_dockwidget.cpp
  /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/moc_mainwindow.cpp
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/dockwidget.h
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/documentdicom.h
  /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.h
  /Users/Raymond/Documents/VTK/Common/Core/vtkAtomicInt.h
  /Users/Raymond/Documents/VTK/Common/Core/vtkCommonCoreModule.h
@@ -41,6 +44,24 @@ CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o
  /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QWidget
  /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
  /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
+CMakeFiles/DicomViewer.dir/src/dockwidget.cxx.o
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/dockwidget.cxx
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/dockwidget.h
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/documentdicom.h
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QFormLayout
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QHBoxLayout
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QPushButton
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QVBoxLayout
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QWidget
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qboxlayout.h
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qformlayout.h
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qpushbutton.h
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
+CMakeFiles/DicomViewer.dir/src/documentdicom.cxx.o
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/documentdicom.cxx
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/documentdicom.h
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtCore.framework/Headers/QDebug
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtCore.framework/Headers/qdebug.h
 CMakeFiles/DicomViewer.dir/src/main.cxx.o
  /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/main.cxx
  /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.h
@@ -83,6 +104,8 @@ CMakeFiles/DicomViewer.dir/src/main.cxx.o
  /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
  /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qwidget.h
 CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/dockwidget.h
+ /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/documentdicom.h
  /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.cxx
  /Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.h
  /Users/Raymond/Documents/VTK/Common/Core/vtkAtomicInt.h
@@ -201,7 +224,9 @@ CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o
  /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkViewport.h
  /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkVolume.h
  /Users/Raymond/Downloads/VTK-6.1.0/Rendering/Core/vtkVolumeCollection.h
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QDockWidget
  /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QMainWindow
  /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/QWidget
+ /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qdockwidget.h
  /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h
  /Users/Raymond/Qt5.4.0/5.4/clang_64/lib/QtWidgets.framework/Headers/qwidget.h

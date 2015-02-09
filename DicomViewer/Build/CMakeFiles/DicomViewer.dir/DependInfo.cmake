@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/DicomViewer_automoc.cpp" "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles/DicomViewer.dir/DicomViewer_automoc.cpp.o"
+  "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/dockwidget.cxx" "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles/DicomViewer.dir/src/dockwidget.cxx.o"
+  "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/documentdicom.cxx" "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles/DicomViewer.dir/src/documentdicom.cxx.o"
   "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/main.cxx" "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles/DicomViewer.dir/src/main.cxx.o"
   "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/src/mainwindow.cxx" "/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/Build/CMakeFiles/DicomViewer.dir/src/mainwindow.cxx.o"
   )

@@ -15,10 +15,14 @@ TARGET = DicomViewer
 TEMPLATE = app
 
 SOURCES += src/main.cxx \
-    src/mainwindow.cxx
+    src/mainwindow.cxx \
+    src/dockwidget.cxx \
+    src/documentdicom.cxx
 
 HEADERS += \
-    src/mainwindow.h
+    src/mainwindow.h \
+    src/dockwidget.h \
+    src/documentdicom.h
 
 RESOURCES +=
 

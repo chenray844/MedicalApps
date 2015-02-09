@@ -1,4 +1,9 @@
+//qt
+#include <QDockWidget>
+
 #include "mainwindow.h"
+#include "dockwidget.h"
+#include "documentdicom.h"
 
 //vtk
 #include <QVTKWidget.h>
@@ -15,7 +20,20 @@
 MainWindow::MainWindow(QWidget *parent)
     :QMainWindow(parent)
 {
+    setWindowTitle("Dicom Viewer");
+    //setWindowIcon(QIcon(QString("/Users/Raymond/Documents/Ray/MedicalApps/MedicalApps/DicomViewer/res/Icon.png")));
 
+    DocDicom *doc = new DocDicom;
+
+    QDockWidget *dockWgt = new QDockWidget();
+    dockWgt->setAllowedAreas(Qt::LeftDockWidgetArea | Qt::RightDockWidgetArea);
+    dockWgt->setFeatures(QDockWidget::NoDockWidgetFeatures);
+    addDockWidget(Qt::LeftDockWidgetArea,dockWgt);
+
+    DockWidget *dwgt = new DockWidget(doc);
+    dockWgt->setWidget(dwgt);
+
+    //center widget
     QVTKWidget *wgt = new QVTKWidget(parent);
     myVTKWgt = wgt;
     setCentralWidget(wgt);
