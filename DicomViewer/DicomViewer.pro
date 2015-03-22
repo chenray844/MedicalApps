@@ -17,12 +17,16 @@ TEMPLATE = app
 SOURCES += src/main.cxx \
     src/mainwindow.cxx \
     src/dockwidget.cxx \
-    src/documentdicom.cxx
+    src/documentdicom.cxx \
+    src/command/vtkimageinteractioncallback.cxx \
+    src/vtkimagestylecommand.cxx
 
 HEADERS += \
     src/mainwindow.h \
     src/dockwidget.h \
-    src/documentdicom.h
+    src/documentdicom.h \
+    src/command/vtkimageinteractioncallback.h \
+    src/vtkimagestylecommand.h
 
 RESOURCES +=
 
